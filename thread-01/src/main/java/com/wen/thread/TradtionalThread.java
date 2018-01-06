@@ -30,7 +30,6 @@ public class TradtionalThread {
         });
         thread1.start();
     new Thread(new Runnable() {
-        @Override
         public void run() {
             try {
                 Thread.sleep(500);
